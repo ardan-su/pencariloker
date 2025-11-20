@@ -13,8 +13,8 @@ $ git push -u origin main
 ```
 # Troubleshooting 👀
 Kalau dapat Error 
-```bash
-$ error: failed to push some refs to 'https://github.com/ardan-su/pencariloker.git'
+```
+error: failed to push some refs to 'https://github.com/ardan-su/pencariloker.git'
 hint: Updates were rejected because the remote contains work that you do not
 hint: have locally. This is usually caused by another repository pushing to
 hint: the same ref. If you want to integrate the remote changes, use
