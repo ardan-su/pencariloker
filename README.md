@@ -21,11 +21,8 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-berarti sebelum melakukan 
-```bash
-$ git push
 
-```
+
 kudu di giniin dulu 
 
 ```bash
