@@ -1,114 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project RPL</title>
-   <style>
-        body {
-            margin: 0;
-            font-family: "Poppins", sans-serif;
-            background: #f4f6fa;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Header Footer</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    /* HEADER */
+    header {
+        background: white;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+        white-space: nowrap;
+    }
+
+    
+    .search-box {
+        display: flex;
+        align-items: center;
+        background: #f7f7f7;
+        padding: 8px 14px;
+        border-radius: 25px;
+        border: 1px solid #dcdcdc;
+        width: 260px;
+    }
+
+    .search-box span {
+        margin-right: 8px;
+        opacity: 0.7;
+    }
+
+    .search-box input {
+        border: none;
+        background: none;
+        outline: none;
+        width: 100%;
+    }
+
+   
+    nav {
+        display: flex;
+        gap: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        padding-bottom: 4px;
+        transition: 0.2s;
+    }
+
+   
+    nav a:hover {
+        color: #3498db;
+    }
+
+   
+    #menu-toggle {
+        display: none;
+    }
+
+    .menu-btn {
+        display: none;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    @media (max-width: 850px) {
+        .search-box {
+            display: none;
         }
 
-       
-        .navbar {
-            background: #ffffff;
-            padding: 12px 25px;
+        .menu-btn {
+            display: block;
+        }
+
+        nav {
+            position: absolute;
+            top: 65px;
+            right: 40px;
+            background: white;
+            flex-direction: column;
+            gap: 15px;
+            width: 160px;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            display: none;
+        }
+
+        #menu-toggle:checked + .menu-btn + nav {
             display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid #e2e8f0;
         }
+    }
 
-        
-        .logo {
-            font-size: 20px;
-            font-weight: 700;
-            color: #2563eb;
-        }
+    .content {
+        flex: 1;
+        padding: 40px;
+    }
 
-        
-        .search {
-            background: #f1f5f9;
-            padding: 8px 14px;
-            border-radius: 18px;
-            display: flex;
-            align-items: center;
-            width: 260px;
-            gap: 8px;
-        }
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+    }
 
-        .search:hover {
-            background-color: #7fbffb;
+    footer p {
+        margin: 6px 0;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+</style>
+</head>
+<body>
 
-        }
+<header>
+    <div class="logo">PT. ASALJADI</div>
 
-        .search input {
-            border: none;
-            background: transparent;
-            outline: none;
-            width: 100%;
-            font-size: 14px;
-        }
-
-        
-        .menu {
-            display: flex;
-            gap: 28px;
-            font-size: 14px;
-            color: #475569;
-        }
-
-        .menu div {
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            transition: 0.2s;
-        }
-
-        .menu div:hover {
-            background-color: #2364f0;
-            border-radius: 5px;
-            padding: 10px;
-            
-        }
-
-       
-        .profile {
-            width: 36px;
-            height: 36px;
-            background: #2563eb;
-            border-radius: 50%;
-        }
-    </style>
-
-    </head>
-    <body>
-
-    <div class="navbar">
-
-        <!-- Logo -->
-        <div class="logo">PT. ASALJADI</div>
-
-        <!-- Search -->
-        <div class="search">
-            🔍
-            <input type="text" placeholder="Search...">
-        </div>
-
-        <!-- Menu -->
-        <div class="menu">
-            <div>Home</div>
-            <div>Projects</div>
-            <div>Messages</div>
-            <div>Alerts</div>
-        </div>
-
-        <!-- Profile -->
-        <div class="profile"></div>
-
+    <div class="search-box">
+        <span>🔍</span>
+        <input type="text" placeholder="Search">
     </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-btn">☰</label>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">My Network</a>
+        <a href="#">Jobs</a>
+        <a href="#">Messaging</a>
+        <a href="#">Notifications</a>
+    </nav>
+</header>
+
+<div class="content">
+    <h1>Selamat Datang!</h1>
+    <p>PT. ASAL JADI.</p>
+</div>
+
+<footer>
+    <p>© 2025 PT. ASALJADI All Rights Reserved.</p>
+    <p>Created with Pikiran</p>
+</footer>
+
 </body>
 </html>
