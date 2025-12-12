@@ -24,6 +24,7 @@ header {
 .logo {
   font-weight: bold;
   font-size: 18px;
+  color: #0073b1;
 }
 
 .search-box input {
@@ -188,4 +189,13 @@ footer {
 }
 
 /* ===== RESPONSIVE ===== */
-@m
+@media (max-width: 900px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section, .right-section {
+    width: 90%;
+  }
+}
