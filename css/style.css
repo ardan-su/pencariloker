@@ -156,7 +156,7 @@ nav a:hover {
 }
 
 .job-footer {
-  padding: 12px 16px;
+  padding: 0px 16px;
   text-align: center;
   background: #fafafa;
   cursor: pointer;
@@ -164,6 +164,8 @@ nav a:hover {
   color: #0073b1;
   transition: background 0.2s ease;
 }
+
+
 
 .job-footer:hover {
   background: #f0f8ff;
