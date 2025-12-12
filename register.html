@@ -30,8 +30,9 @@
 
 
 <body>
-     <form name="Register">
+     <form name="Register" action="index.html">
         <div class="datarpribadi">
+            <h1>DATA PRIBADI</h1> <br>
         <label for="Namalengkap">Nama Lengkap :</label> <br>
         <input id="Namalengkap" name="namalengkap" type="text"> <br>
 
@@ -60,11 +61,51 @@
         <input id="alamatasal" name="alamatasal" type="text"> <br>
 
         <label for="Email">Email :</label> <br>
-        <input id="Email" name="Email" type="text"> <br>
+        <input id="Email" name="Email" type="email"> <br>
 
         <label for="Telepon">Telepon :</label> <br>
-        <input id="Telepon" name="Telepon" type="text"> <br>    
+        <input id="Telepon" name="Telepon" type="number"> <br> 
+        
+        <label for="negara">Kewarganegaraan :</label>
+        <input id="negara" name="negara" type="text"> <br>
         </div>  
+
+        <div class="riwayat pendidikan">
+                <h1>RIWAYAT PENDIDIKAN</h1> <br>
+
+            <label for="tingkatpend">Tingkat Pendidikan Terakhir :</label>
+            <select name="tingkatpend" id="tingkatpend" multiple size="1" value="pilih">
+                <option value="SMA">SMA/SMK</option>
+                <option value="D3>">D3</option>
+                <option value="S1">S1</option>
+                <option value="dll">dll</option>
+            </select> <br>
+
+            <label for="pend">Nama Institusi Pendidikan :</label>
+            <input id="pend" name="pend" type="text"> <br>
+
+            <label for="jurusan">Jurusan yang dipilih :</label>
+            <input id="jurusan" name="jurusan" type="text"> <br>
+
+            <label for="thn">Tahun masuk & Tahun lulus :</label>
+            <input id="thn" name="thn" type="text"> <br>
+
+            <label for="nilai">Nilai IPK :</label>
+            <input id="nilai" name="nilai" type="number"> <br>
+        </div>
+
+        <div class="pengalaman kerja">
+            <label for="perusahaan">Nama Perusahaan :</label>
+            <input id="perusahaan" name="perusahaan" type="text"> <br>
+
+            <label for="jbtn">Jabatan Terakhir :</label>
+            <input id="jbtn" name="jbtn" type="text"> <br>
+
+            <label for="periode">Periode Bekerja :</label>
+            <input id="periode" name="periode" type="datetime"> <br>
+
+            
+        </div>
     </form>
 </body>
 
