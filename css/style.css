@@ -146,3 +146,23 @@ footer {
     opacity: 0.6;
     margin-top: 15px;
 }
+
+.card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 16px;
+      font-family: sans-serif;
+      background-color: #fdfdfd;
+    }
+    .card-header {
+      text-align: center;
+    }
+    .card-header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    .card-body {
+      margin-top: 10px;
+    }
