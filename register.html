@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Header Footer</title>
+<title>Daftar Loker • PT. ASALJADI</title>
 <link rel="stylesheet" href="css/style.css">
-
-
-
 </head>
 
+<body>
+
+<!-- ===== HEADER ===== -->
 <header>
     <div class="logo">PT. ASALJADI</div>
 
@@ -22,131 +22,157 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="profile.html">Jobs</a>
+        <a href="lokeravail.html">Jobs</a>
         <a href="aboutus.html">About Us</a>
         <a href="register.html">Daftar Loker</a>
     </nav>
 </header>
 
+<!-- ===== MAIN ===== -->
+<main>
 
-<body>
-     <form name="Register" action="index.html">
-        <fieldset>
-            <legend
-            <h1>DATA PRIBADI</h1> <br>
-        <label for="Namalengkap">Nama Lengkap :</label> <br>
-        <input id="Namalengkap" name="namalengkap" type="text"> <br>
+<div class="form-container">
 
-        <label for="nama">Nama Panggilan :</label> <br>
-        <input id="nama" name="nama" type="text"> <br>
+<form action="index.html" method="post">
 
-        <label for="nomerktp">Nomor KTP :</label> <br>
-        <input id="nomerktp" name="nomorktp" type="number"> <br>
+    <!-- DATA PRIBADI -->
+    <fieldset>
+        <legend>Data Pribadi</legend>
 
-        <label for="tgllahir">Tanggal Lahir :</label> <br>
-        <input id="tgllahir" name="tgllahir" type="date"> <br>
+        <label>Nama Lengkap</label>
+        <input type="text" name="namalengkap">
 
-        <label for="jeniskel">Jenis Kelamin :</label> <br>
-        <input id="jeniskel" name="jeniskel" type="text"> <br>
+        <label>Nama Panggilan</label>
+        <input type="text" name="nama">
 
-        <label for="status">Status :</label> <br>
-        <input id="status" name="status" type="text"> <br>
+        <label>Nomor KTP</label>
+        <input type="number" name="ktp">
 
-        <label for="agama">Agama :</label> <br>
-        <input id="agama" name="agama" type="text"> <br>
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgllahir">
 
-        <label for="domisili">Alamat Domisili :</label> <br>
-        <input id="domisili" name="domisili" type="text"> <br>
+        <label>Jenis Kelamin</label>
+        <input type="text" name="jeniskel">
 
-        <label for="alamatasal">Alamat Asal :</label> <br>
-        <input id="alamatasal" name="alamatasal" type="text"> <br>
+        <label>Status</label>
+        <input type="text" name="status">
 
-        <label for="Email">Email :</label> <br>
-        <input id="Email" name="Email" type="email"> <br>
+        <label>Agama</label>
+        <input type="text" name="agama">
 
-        <label for="Telepon">Telepon :</label> <br>
-        <input id="Telepon" name="Telepon" type="number"> <br> 
-        
-        <label for="negara">Kewarganegaraan :</label> <br>
-        <input id="negara" name="negara" type="text"> <br>
+        <label>Alamat Domisili</label>
+        <input type="text" name="domisili">
 
-                <h1>RIWAYAT PENDIDIKAN</h1> <br>
+        <label>Alamat Asal</label>
+        <input type="text" name="alamatasal">
 
-            <label for="tingkatpend">Tingkat Pendidikan Terakhir :</label> <br>
-            <select name="tingkatpend" id="tingkatpend" multiple size="1" value="pilih">
-                <option value="SMA">SMA/SMK</option>
-                <option value="D3>">D3</option>
-                <option value="S1">S1</option>
-                <option value="dll">dll</option>
-            </select> <br>
+        <label>Email</label>
+        <input type="email" name="email">
 
-            <label for="pend">Nama Institusi Pendidikan :</label> <br>
-            <input id="pend" name="pend" type="text"> <br>
+        <label>Telepon</label>
+        <input type="number" name="telepon">
 
-            <label for="jurusan">Jurusan yang dipilih :</label> <br>
-            <input id="jurusan" name="jurusan" type="text"> <br>
+        <label>Kewarganegaraan</label>
+        <input type="text" name="negara">
+    </fieldset>
 
-            <label for="thn">Tahun masuk & Tahun lulus :</label> <br>
-            <input id="thn" name="thn" type="text"> <br>
+    <!-- RIWAYAT PENDIDIKAN -->
+    <fieldset>
+        <legend>Riwayat Pendidikan</legend>
 
-            <label for="nilai">Nilai IPK :</label> <br>
-            <input id="nilai" name="nilai" type="number"> <br>
+        <label>Pendidikan Terakhir</label>
+        <select name="pendidikan">
+            <option>SMA / SMK</option>
+            <option>D3</option>
+            <option>S1</option>
+            <option>Lainnya</option>
+        </select>
 
-            <h1>PENGALAMAN KERJA</h1> <br>
+        <label>Nama Institusi</label>
+        <input type="text" name="institusi">
 
-            <label for="perusahaan">Nama Perusahaan :</label> <br>
-            <input id="perusahaan" name="perusahaan" type="text"> <br>
+        <label>Jurusan</label>
+        <input type="text" name="jurusan">
 
-            <label for="jbtn">Jabatan Terakhir :</label> <br>
-            <input id="jbtn" name="jbtn" type="text"> <br>
+        <label>Tahun Masuk - Lulus</label>
+        <input type="text" name="tahun">
 
-            <label for="periode">Periode Bekerja :</label> <br>
-            <input id="periode" name="periode" type="datetime"> <br>
+        <label>IPK / Nilai</label>
+        <input type="number" name="nilai">
+    </fieldset>
 
-            <label for="tugas">Divisi Saat Bekerja :</label> <br>
-            <input id="tugas" name="tugas" type="text"> <br>
+    <!-- PENGALAMAN KERJA -->
+    <fieldset>
+        <legend>Pengalaman Kerja</legend>
 
-            <label for="prestasi">Prestasi yang dicapai :</label> <br>
-            <input id="prestasi" name="prestasi" type="text"> <br>
+        <label>Nama Perusahaan</label>
+        <input type="text" name="perusahaan">
 
-            <label for="alasan">Alasan Berenti :</label> <br>
-            <input id="alasan" name="alasan" type="text"> <br>
+        <label>Jabatan Terakhir</label>
+        <input type="text" name="jabatan">
 
-            <label for="gaji">Gaji Terakhir :</label> <br>
-            <input id="gaji" name="gaji" type="text"> <br>
+        <label>Periode Bekerja</label>
+        <input type="text" name="periode">
 
-            <h1>KEAHLIAN DAN KUALIFIKASI</h1> <br>
+        <label>Divisi</label>
+        <input type="text" name="divisi">
 
-            <label for="bahasa">Bahasa Asing yang Dikuasai :</label> <br>
-            <input id="bahasa" name="bahasa" type="text">
-             <select name="tingkat" id="tingkat" multiple size="1">
-                <option value="pasif">pasif</option>
-                <option value="aktif">aktif</option>
-             </select> <br>
+        <label>Prestasi</label>
+        <input type="text" name="prestasi">
 
-            <label for="comp">Keahlian Komputer/Software :</label> <br>
-            <input id="comp" name="comp" type="text"> <br>
+        <label>Alasan Berhenti</label>
+        <input type="text" name="alasan">
 
-            <label for="sertifikat">Sertifikat :</label> <br>
-            <input id="sertifikat" name="sertifikat" type="image"> <br>
+        <label>Gaji Terakhir</label>
+        <input type="text" name="gaji">
+    </fieldset>
 
-            <label for="lain">Keahlian Lainnya :</label> <br>
-            <input id="lain" name="lain" type="text"> <br>
-        </fieldset>
-    </form>
-</body>
+    <!-- KEAHLIAN -->
+    <fieldset>
+        <legend>Keahlian & Kualifikasi</legend>
 
+        <label>Bahasa Asing</label>
+        <input type="text" name="bahasa">
+
+        <label>Tingkat Penguasaan</label>
+        <select name="tingkat">
+            <option>Pasif</option>
+            <option>Aktif</option>
+        </select>
+
+        <label>Keahlian Komputer</label>
+        <input type="text" name="komputer">
+
+        <label>Sertifikat</label>
+        <input type="file" name="sertifikat">
+
+        <label>Keahlian Lainnya</label>
+        <input type="text" name="lainnya">
+    </fieldset>
+
+    <button type="submit" class="submit-btn">Kirim Data</button>
+
+</form>
+
+</div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
 <footer>
     <div class="footer-top">PT. ASALJADI</div>
 
     <div class="footer-links">
         <a href="index.html">Home</a>
-        <a href="profile.html">Jobs</a>
+        <a href="lokeravail.html">Jobs</a>
         <a href="aboutus.html">About Us</a>
         <a href="register.html">Daftar Loker</a>
     </div>
 
-    <div class="footer-bottom">© 2025 PT. ASALJADI • All Rights Reserved • Created with Pikiran</div>
+    <div class="footer-bottom">
+        © 2025 PT. ASALJADI • All Rights Reserved • Created with Pikiran
+    </div>
 </footer>
 
+</body>
 </html>

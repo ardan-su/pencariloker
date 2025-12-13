@@ -278,6 +278,96 @@ footer {
   line-height: 1.7;
 }
 
+/* ===== HERO SECTION (INDEX) ===== */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  color: #0073b1;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #0073b1;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.hero-btn:hover {
+  background-color: #005f8d;
+}
+
+
+/* ===== REGISTER FORM ===== */
+.form-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+form fieldset {
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form legend {
+  font-weight: bold;
+  color: #0073b1;
+  padding: 0 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #005f8d;
+}
+
+
 /* RESPONSIVE */
 @media (max-width: 700px) {
   .about-card-page {
