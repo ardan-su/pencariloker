@@ -1,101 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PT. ASALJADI • Pencari Loker</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. ASALJADI • Pencari Loker</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body> <!-- ===== HEADER ===== -->
+    <header>
+        <div class="logo">PT. ASALJADI</div>
+        <div class="search-box"> <input type="text" placeholder="Cari pekerjaan..."> </div> <input type="checkbox"
+            id="menu-toggle"> <label for="menu-toggle" class="menu-btn">☰</label>
+        <nav> <a href="index.html">Home</a> <a href="lokeravail.html">Jobs</a> <a href="aboutus.html">About Us</a> <a
+                href="register.html">Daftar Loker</a> </nav>
+    </header> <!-- ===== MAIN ===== -->
+    <main> <!-- HERO -->
+        <section class="hero-main">
+            <span class="hero-badge">Platform Pencari Lowongan Kerja Indonesia</span>
 
-<!-- ===== HEADER ===== -->
-<header>
-    <div class="logo">PT. ASALJADI</div>
+            <h1>Bangun Karier Masa Depanmu</h1>
 
-    <div class="search-box">
-        <input type="text" placeholder="Cari pekerjaan...">
-    </div>
+            <p>
+                PT. ASALJADI membantu pencari kerja menemukan lowongan terbaik
+                dari perusahaan terpercaya di seluruh Indonesia.
+            </p>
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-btn">☰</label>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="lokeravail.html">Jobs</a>
-        <a href="aboutus.html">About Us</a>
-        <a href="register.html">Daftar Loker</a>
-    </nav>
-</header>
-
-<!-- ===== MAIN ===== -->
-<main>
-
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Temukan Pekerjaan Impianmu</h1>
-        <p>
-            PT. ASALJADI membantu kamu menemukan lowongan kerja terbaru,
-            terpercaya, dan sesuai dengan keahlianmu.
-        </p>
-        <a href="lokeravail.html" class="hero-btn">Lihat Lowongan →</a>
-    </section>
-
-    <!-- INFO -->
-    <section class="main-container">
-        <div class="right-section">
-            <div class="job-list">
-                <h3>Kenapa memilih PT. ASALJADI?</h3>
-
-                <div class="job-card">
-                    <div class="job-info">
-                        <h4>Lowongan Terpercaya</h4>
-                        <p>Setiap lowongan berasal dari perusahaan terverifikasi.</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="job-info">
-                        <h4>Update Setiap Hari</h4>
-                        <p>Informasi loker selalu diperbarui setiap hari.</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="job-info">
-                        <h4>Mudah Digunakan</h4>
-                        <p>Tampilan sederhana dan mudah dipahami.</p>
-                    </div>
-                </div>
-
-                <div class="job-card">
-                    <div class="job-info">
-                        <h4>Gratis untuk Pencari Kerja</h4>
-                        <p>Daftar dan cari pekerjaan tanpa biaya.</p>
-                    </div>
-                </div>
-
+            <div class="hero-actions">
+                <a href="lokeravail.html" class="btn-primary">Cari Lowongan</a>
+                <a href="register.html" class="btn-secondary">Daftar Sekarang</a>
             </div>
-        </div>
     </section>
 
-</main>
+         <!-- STATISTIK -->
+        <section class="stats-section">
+            <div class="stats-box">
+                <h2>1.000+</h2>
+                <p>Lowongan Aktif</p>
+            </div>
+            <div class="stats-box">
+                <h2>500+</h2>
+                <p>Perusahaan Mitra</p>
+            </div>
+            <div class="stats-box">
+                <h2>10.000+</h2>
+                <p>Pencari Kerja</p>
+            </div>
+        </section> <!-- LAYANAN -->
+        <section class="service-section">
+            <h2>Layanan Kami</h2>
+            <p class="service-desc">
+                Kami menyediakan solusi pencarian kerja yang mudah, aman, dan efisien
+                untuk pencari kerja maupun perusahaan.
+            </p>
 
-<!-- ===== FOOTER ===== -->
-<footer>
-    <div class="footer-top">PT. ASALJADI</div>
-
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="lokeravail.html">Jobs</a>
-        <a href="aboutus.html">About Us</a>
-        <a href="register.html">Daftar Loker</a>
-    </div>
-
-    <div class="footer-bottom">
-        © 2025 PT. ASALJADI • All Rights Reserved • Created with Pikiran
-    </div>
-</footer>
-
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <h3>Pencarian Loker</h3>
+                    <p> Temukan lowongan kerja terbaru dari berbagai perusahaan terpercaya di seluruh Indonesia. </p>
+                </div>
+                <div class="service-card">
+                    <h3>Daftar & Lamar</h3>
+                    <p> Daftarkan data dirimu sekali dan gunakan untuk melamar berbagai lowongan kerja. </p>
+                </div>
+                <div class="service-card">
+                    <h3>Informasi Perusahaan</h3>
+                    <p> Dapatkan informasi perusahaan sebelum melamar agar lebih yakin dengan pilihanmu. </p>
+                </div>
+            </div>
+        </section> <!-- CTA -->
+        <section class="cta-section">
+            <h2>Siap Mendapatkan Pekerjaan?</h2>
+            <p> Daftarkan dirimu sekarang dan mulai perjalanan karier bersama PT. ASALJADI. </p> <a href="register.html"
+                class="btn-primary">Daftar Sekarang</a>
+        </section>
+    </main> <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-top">PT. ASALJADI</div>
+        <div class="footer-links"> <a href="index.html">Home</a> <a href="lokeravail.html">Jobs</a> <a
+                href="aboutus.html">About Us</a> <a href="register.html">Daftar Loker</a> </div>
+        <div class="footer-bottom"> © 2025 PT. ASALJADI • All Rights Reserved • Created with Pikiran </div>
+    </footer>
 </body>
+
 </html>
