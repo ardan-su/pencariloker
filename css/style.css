@@ -364,8 +364,7 @@ form select {
   background: #005f8d;
 }
 
-/* ===== NAVBAR FIX ===== */
-/* sembunyikan checkbox */
+/* ===== NAVBAR ===== */
 #menu-toggle {
   display: none;
 }
@@ -586,7 +585,7 @@ nav {
     margin: 0;
     border-bottom: 1px solid #eee;
     text-align: center;
-  }
+  } 
 
   nav a:last-child {
     border-bottom: none;
