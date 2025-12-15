@@ -242,12 +242,6 @@ footer {
   padding: 20px;
   border-radius: 12px;
   width: 300px;
-  transition: 0.2s;
-}
-
-.about-card-page:hover {
-  border-color: #0073b1;
-  transform: translateY(-3px);
 }
 
 .about-card-page h3 {
