@@ -10,7 +10,7 @@
 <body>
 
 <!-- ===== HEADER ===== -->
-<header>
+<header>    
     <div class="logo">PT. ASALJADI</div>
 
     <div class="search-box">
@@ -58,7 +58,15 @@
         <input type="text" name="status">
 
         <label>Agama</label>
-        <input type="text" name="agama">
+        <select name="tingkat">
+            <option>islam</option>
+            <option>kristen</option>
+            <option>hindu</option>
+            <option>katolik</option>
+            <option>konghucu</option>
+            <option>buddha</option>
+         </select>
+
 
         <label>Alamat Domisili</label>
         <input type="text" name="domisili">
@@ -124,7 +132,7 @@
         <input type="text" name="alasan">
 
         <label>Gaji Terakhir</label>
-        <input type="text" name="gaji">
+        <input type="number" name="gaji" step="any">
     </fieldset>
 
     <!-- KEAHLIAN -->
@@ -132,7 +140,13 @@
         <legend>Keahlian & Kualifikasi</legend>
 
         <label>Bahasa Asing</label>
-        <input type="text" name="bahasa">
+        <select name="tingkat">
+            <option>Inggris</option>
+            <option>Arab</option>
+             <option>Jerman</option>
+              <option>korea</option>
+               <option>Jepang</option>
+        </select>
 
         <label>Tingkat Penguasaan</label>
         <select name="tingkat">
@@ -141,7 +155,10 @@
         </select>
 
         <label>Keahlian Komputer</label>
-        <input type="text" name="komputer">
+        <select name="tingkat">
+            <option>Pasif</option>
+            <option>Aktif</option>
+        </select>
 
         <label>Sertifikat</label>
         <input type="file" name="sertifikat">
