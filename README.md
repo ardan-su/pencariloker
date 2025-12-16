@@ -1,6 +1,6 @@
-# PencariLoker
+# encariloker
 
-PencariLoker adalah sebuah website statis sederhana yang dibuat untuk memenuhi kebutuhan tugas sekolah. Website ini bertujuan untuk menampilkan konsep dasar platform pencarian lowongan pekerjaan, seperti yang biasa ditemukan pada situs pencari kerja profesional, namun dengan implementasi yang masih sangat dasar.
+pencariloker adalah sebuah website statis sederhana yang dibuat untuk memenuhi kebutuhan tugas sekolah. Website ini bertujuan untuk menampilkan konsep dasar platform pencarian lowongan pekerjaan, seperti yang biasa ditemukan pada situs pencari kerja profesional, namun dengan implementasi yang masih sangat dasar.
 
 Proyek ini berfokus pada penggunaan **HTML dan CSS saja**, tanpa JavaScript, backend, database, maupun sistem autentikasi. Seluruh konten bersifat statis dan ditujukan sebagai simulasi tampilan antarmuka (UI) semata.
 
