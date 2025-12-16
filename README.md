@@ -83,7 +83,7 @@ Tidak menggunakan:
 ## 📂 Struktur Direktori
 
 Berikut adalah struktur direktori proyek ini:
-
+```bash 
 pencariloker/
 │
 ├─ assets/ # File pendukung tambahan
@@ -98,7 +98,7 @@ pencariloker/
 │
 └─ README.md # Dokumentasi proyek
 
-
+```
 ---
 
 ## ▶️ Cara Menjalankan Proyek
