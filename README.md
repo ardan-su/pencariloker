@@ -1,4 +1,4 @@
-# encariloker
+# pencariloker
 
 pencariloker adalah sebuah website statis sederhana yang dibuat untuk memenuhi kebutuhan tugas sekolah. Website ini bertujuan untuk menampilkan konsep dasar platform pencarian lowongan pekerjaan, seperti yang biasa ditemukan pada situs pencari kerja profesional, namun dengan implementasi yang masih sangat dasar.
 
