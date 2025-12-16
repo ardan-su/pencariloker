@@ -38,7 +38,6 @@ PencariLoker mengusung konsep website pencarian lowongan kerja sederhana dengan 
 
 - Halaman beranda
 - Halaman daftar lowongan kerja
-- Halaman profil pengguna (dummy)
 - Halaman registrasi (dummy)
 - Halaman tentang kami
 
