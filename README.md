@@ -92,7 +92,6 @@ pencariloker/
 │
 ├─ index.html # Halaman utama
 ├─ lokeravail.html # Halaman daftar lowongan
-├─ profile.html # Halaman profil pengguna (dummy)
 ├─ register.html # Halaman registrasi (dummy)
 ├─ aboutus.html # Halaman tentang kami
 │
